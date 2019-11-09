@@ -1,1 +1,2 @@
 [![Build Status](https://travis-ci.org/NickProvidokhin/Sportmaster-bonus.svg?branch=master)](https://travis-ci.org/NickProvidokhin/Sportmaster-bonus)
+[![codecov](https://codecov.io/gh/NickProvidokhin/Sportmaster-bonus/branch/master/graph/badge.svg)](https://codecov.io/gh/NickProvidokhin/Sportmaster-bonus)
