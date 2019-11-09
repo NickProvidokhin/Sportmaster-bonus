@@ -43,4 +43,14 @@ class SportmasterBonusServiceTest {
         assertEquals(2_800,result);
     }
 
+    @Test
+    void calculateBonusAllPurchaseIsZero(){
+        SportmasterBonusService service = new SportmasterBonusService();
+        int allPurchases = 0;
+        int purchase = 2_000;
+
+        int result = service.calculateBonus(allPurchases, purchase);
+        assertEquals(200,result);
+    }
+
 }
