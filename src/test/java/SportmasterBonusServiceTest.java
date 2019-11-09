@@ -50,7 +50,7 @@ class SportmasterBonusServiceTest {
         int purchase = 2_000;
 
         int result = service.calculateBonus(allPurchases, purchase);
-        assertEquals(200,result);
+        assertEquals(0,result);
     }
 
 }

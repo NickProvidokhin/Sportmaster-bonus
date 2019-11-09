@@ -19,7 +19,7 @@ public class SportmasterBonusService {
         else if (minSilverAllPurchase <= allPurchases && allPurchases <= maxSilverAllPurchase){
             bonus= purchase / minPurchaseBonus * silverBonusCard;
         }
-        else {
+        else if (allPurchases > maxSilverAllPurchase){
             bonus= purchase / minPurchaseBonus * goldBonusCard;
         }
         return bonus;
